@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandProcessor", "CommandProcessor\CommandProcessor.csproj", "{D01C7834-367F-4A3E-9234-189E452D7596}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{1A8EB159-DFA3-4A76-9A6F-4C36707A05BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{4C8EB407-FE4F-4F21-B788-057C4001A2BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{D01C7834-367F-4A3E-9234-189E452D7596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D01C7834-367F-4A3E-9234-189E452D7596}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D01C7834-367F-4A3E-9234-189E452D7596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8EB159-DFA3-4A76-9A6F-4C36707A05BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8EB159-DFA3-4A76-9A6F-4C36707A05BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8EB159-DFA3-4A76-9A6F-4C36707A05BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8EB159-DFA3-4A76-9A6F-4C36707A05BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8EB407-FE4F-4F21-B788-057C4001A2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8EB407-FE4F-4F21-B788-057C4001A2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8EB407-FE4F-4F21-B788-057C4001A2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8EB407-FE4F-4F21-B788-057C4001A2BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
