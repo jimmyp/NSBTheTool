@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using NServiceBus;
 
-namespace CommandProcessor
+namespace Subscriber1
 {
-    public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher
+    public class EndpointConfig: IConfigureThisEndpoint, AsA_Server
     {
     }
 }
