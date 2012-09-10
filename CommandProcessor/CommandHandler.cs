@@ -21,7 +21,7 @@ namespace CommandProcessor
         {
             Console.WriteLine("Recieved Some Command");
             _bus.SetHeader("username", "jim");
-            _bus.Publish<EventHappened>();
+            _bus.Publish<EventHappened>(m => m.Id = message.Id);
         }
     }
 }

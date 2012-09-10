@@ -33,7 +33,7 @@ namespace WebApp.Controllers
         [HttpPost]
         public ActionResult SendCommand()
         {
-            _bus.Send(new SomeCommand(){});
+            _bus.Send(new SomeCommand(){ Id = new Guid("5DF5B0BE-07B9-44DB-80F6-783FD6315CE9")});
 
             return View("Index");
         }

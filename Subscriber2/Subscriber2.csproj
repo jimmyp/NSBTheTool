@@ -55,8 +55,10 @@
     <Compile Include="..\Subscriber1\EventHandler.cs">
       <Link>EventHandler.cs</Link>
     </Compile>
+    <Compile Include="ThreeEvents.cs" />
     <Compile Include="EndpointConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThreeEventsData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Subscriber1\app.config">
