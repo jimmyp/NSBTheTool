@@ -17,7 +17,7 @@ namespace Subscriber1
         {
             string username;
             _bus.CurrentMessageContext.Headers.TryGetValue("username", out username);
-            if(username != null && username != "jim")
+            if(username == null || username != "jim")
                 _bus.DoNotContinueDispatchingCurrentMessageToHandlers();
         }
     }

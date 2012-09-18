@@ -55,6 +55,7 @@
     <Compile Include="AuthHandler.cs" />
     <Compile Include="EndpointConfig.cs" />
     <Compile Include="EventHandler.cs" />
+    <Compile Include="Ordering.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
